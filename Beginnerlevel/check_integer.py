@@ -1,7 +1,10 @@
-var=int(input())
-if var==0 :
-    print("Zero")
-elif var<0 :
-    print("Negative")
-else:
-    print("Positive")
+try :
+    val=int(input())
+    if val==0:
+    	print("Zero")
+    elif val<0:
+	    print("Negative")
+    else :
+    	print("Positive")
+except  :
+    print ("Invalid Input")
