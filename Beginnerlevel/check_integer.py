@@ -2,6 +2,6 @@ var=int(input())
 if var==0 :
     print("Zero")
 elif var<0 :
-  	print("Negative")
+    print("Negative")
 else:
     print("Positive")
