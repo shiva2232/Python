@@ -4,7 +4,7 @@ try :
     	print("Zero")
     elif val<0:
 	    print("Negative")
-    elif val>0 and val<100000:
+    elif val>0 and val<=100000:
     	print("Positive")
     else :
       print("Invalid Input")
